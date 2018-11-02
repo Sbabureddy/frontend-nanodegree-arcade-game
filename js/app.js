@@ -107,9 +107,7 @@ allEnemies.push(enemyOne, enemyTwo, enemyThree);
 function unrespond(){
     document.removeEventListener("keydown", keyboard);
     function keyboard(event) {     
-       document.body.innerHTML = `
-        &nbsp;&nbsp;&nbsp;
-        <b>which: ${event.which}</b>`;    
+        
      }
     }
 
